@@ -1,0 +1,110 @@
+body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	padding:0px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 6px;
+    width: 450px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2:hover{
+    background-color: lightcoral;
+}
+
+button{
+    margin: 2px;
+    padding: 4px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    color: black;
+    background-color:white;
+    font-size: 20px;
+    text-decoration-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration-color: black;
+}
+.buttons{
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    height: auto;
+    padding: 10px;
+}
+button:hover{
+    background-color: red;
+}
+
+#img_ifba{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px red;
+    height: 240px;
+    width: 160px;
+    background: url(images/ifba_santoamaro.jpg);
+    float: left;
+    margin-left: 20px;
+}
+
+#img_ball{
+    border: solid 1px red;
+    height: 240px;
+    width: 160px;
+    background: url(images/ball.jpg);
+    float: left;
+}
+
+#img_gol{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px red;
+    height: 240px;
+    width: 300px;
+    background: url(images/get_ball.jpg);
+    float: left;
+    margin-left: 20px;
+}
+
+#mae_images{
+    padding: 10px;
+    margin-block-start: 20px;
+    height: 240px;
+    width: 670px;
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width:1200px){
+}
+
+@media (min-width:768px) and (max-width:979px){
+	
+}
+
+@media(max-width:767px){
+	
+}
+
+@media(max-width:480px){
+	
+}
