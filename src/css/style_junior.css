@@ -24,6 +24,7 @@ h2{
 	background: url('images/wp.jpg');
 	height: 800px;
 }
+
 .equipes{
     border: 1px solid blue;
     padding: 0;
@@ -50,6 +51,34 @@ h2{
 	text-align:center;
 }
 
+.placar{
+	padding: 0;
+	height: 100px;
+	width: 200px;
+	margin: 100px auto;
+	border: 1px solid blue;
+} 
+
+#gol_1{
+float: left;
+color: white;
+text-align: center;
+padding: 0;
+font-size: 60pt;
+font-family: DS-DIGI;
+color: red;
+}
+
+#gol_2{
+float: right;
+color: white;
+text-align: center;
+padding: 0;
+font-size: 60pt;
+font-family: DS-DIGI;
+color: red;
+}
+
 
 section{
 	border: 1px solid blue;
@@ -66,7 +95,7 @@ section{
 	font-family: DS-DIGI;
 	width: 200px;
 	background-color: transparent;
-	color: white;
+	color: red;
 }
 
 .Classexibe{

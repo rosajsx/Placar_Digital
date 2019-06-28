@@ -5,6 +5,8 @@ var evento = null;
 var contador = null;
 var minuto;
 var segundo;
+var p1=0, p2=0;
+
 
 function IniciarCronometro(valor){
 	this.evento = valor;
@@ -86,4 +88,14 @@ function ResetarCronometro(){
 	document.getElementById('exibe').classList.add('Classexibe');
 
 	clearTimeout(this.contador);
+}
+
+function golTime1(){
+	p1 +=1;
+	document.getElementById('gol_1').innerHTML = p1;
+}
+
+function golTime2(){
+	p2 +=1;
+	document.getElementById('gol_2').innerHTML = p2;
 }
