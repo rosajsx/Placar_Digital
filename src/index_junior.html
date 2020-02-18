@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -50,4 +51,57 @@
 <script src="./js/main.js"></script>
 <script type="text/javascript" lang="javascript" src="js/script_junior.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8"/>
+<title>CRONÔMETRO</title>
+<link rel="stylesheet" type="text/css" href="css/style_junior.css" />
+<script type="text/javascript" lang="javascript" src="js/script_junior.js"></script>
+</head>
+
+<body>
+	<div class="backImg">
+			<div class="equipes">
+					<div class="equipe_casa">
+					   <h2>Time da Casa</h2>
+					   <img src="css/images/ifba_santoamaro.jpg"  alt="imagem_time_casa">
+					</div> 
+			
+					<div class="equipe_visitante">
+						<h2>Time Visitante</h2>
+						<img src="css/images/escudo.jpg" alt="imagem_time_visitante">
+					</div>
+			</div>
+
+			<div class ="placar">
+					<h1  id="gol_1" onclick="golTime1()">0</h1>
+					<h1  id="gol_2" onclick="golTime2()">0</h1>
+			</div>
+
+			<section>
+				<div class="Classexibe" id="exibe">
+					<div>
+						<p><input class="mostrarValor" type="text" id="mostrarValor" size="2" readonly="readonly" value="30:00"/></p>
+					</div>
+				</div>
+				
+				<div>
+					<p id="min"></p>
+					<p id="seg"></p>
+				</div>
+					
+				<div class="Controls">
+					<p>
+						<input class="btn" type="button" value="INICIAR" id="btnIniciar" onclick="IniciarCronometro('start')" /> 
+						<input class="btn" type="button" value="PAUSAR" id="btnPausar" onclick="PausarCronometro()" disabled="disabled" /> 
+						<input class="btn" type="button" value="RESETAR" id="btnResetar" onclick="ResetarCronometro()" disabled="disabled" /> 
+					</p>
+				</div>
+			</section>
+	</div>
+		
+</body>
+>>>>>>> 3b9227a8f8a9cfbc52ee9527f7026225a911a383
 </html>
