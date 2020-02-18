@@ -1,0 +1,166 @@
+@font-face{
+	font-family: DS-DIGI;
+	src: url('../fonts/DS-DIGI.TTF');
+}
+
+html, body {
+	width: 100%;
+}
+
+body {
+	background-color: #0e0446;
+}
+
+.principal{
+	margin-top: 1%;
+}
+
+.home{
+	background-color: white;
+	width: 95%;
+	height: 65px;
+	border-radius: 10px;
+	display: flex;
+}
+
+.imgHome{
+	width: 50px;
+	height: 50px;
+	max-width: 50px;
+	max-height: 50px;
+	margin-left: 10px;
+	margin-top: 7px;
+	background-color: black;
+}
+
+.iptHome{
+	height: 40px;
+	width: 60%;
+	font-size: large;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border-color: transparent;
+}
+
+.placar{
+	padding: 20px;
+	width: 90%;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+} 
+
+.leftPoints{
+	margin-left: 5%;
+	width: 180px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: #1E90FF;
+}
+
+.rightPoints{
+	margin-right: 5%;
+	width: 180px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: #1E90FF;
+}
+
+#gol_1{
+	font-family: DS-DIGI;
+	color: white;
+	text-align: center;
+	margin-top: 2px;
+	font-size: 100px;
+}
+	
+#gol_2{
+	font-family: DS-DIGI;
+	color: white;
+	text-align: center;
+	margin-top: 2px;
+	font-size: 100px;
+	}
+
+h1{
+	color: #1E90FF;
+}
+
+.visitor{
+	background-color: white;
+	width: 95%;
+	height: 65px;
+	border-radius: 10px;
+	float: right;
+	margin-right: 10px;
+}
+
+.imgVisitor{
+	width: 50px;
+	height: 50px;
+	max-width: 50px;
+	max-height: 50px;
+	margin-top: 7px;
+	margin-right: 10px;
+	background-color: black;
+	float: right;
+}
+
+.iptVisitor{
+	float: right;
+	margin-top: 10px;
+	margin-right: 5px;
+	height: 40px;
+	width: 60%;
+	font-size: large;
+	font-weight: bold;
+	border-radius: 5px;
+	border-color: transparent;
+	text-align: right;
+}
+
+section{
+    height: 200px;
+	width: 400px;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 230px;
+}
+
+.mostrarValor{
+	text-align: center;
+	font-size: 60pt;
+	font-family: DS-DIGI;
+	width: 200px;
+	background-color: transparent;
+	color: white;
+	font-weight: bold;
+}
+
+.Classexibe{
+	text-align:center;
+}
+
+.Controls{
+	margin-left: auto;
+	margin-right: auto;
+	width: 310px;
+	padding: 5px;
+}
+
+.btn {
+	width:100px;
+	border-radius: 5px;
+	height: 30px;
+	width: 100px;
+	background: white;
+}
+
+.btn:hover{
+	background: rosybrown;
+}
+

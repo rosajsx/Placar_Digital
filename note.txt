@@ -1,0 +1,1 @@
+Add input type file para carregar as imagens e inserir nas posições de cada time

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8"/>
+<title>CRONÔMETRO</title>
+<link rel="stylesheet" type="text/css" href="css/style_junior.css" />
+</head>
+
+<body>
+	<div>
+		<div class="principal">
+			<div class="home">
+				<img src="../black.jpg" alt="" class="imgHome" id="homeImg" onclick="trocarImgHome()">
+				<input type="text" placeholder="Casa" class="iptHome">
+			</div>
+
+			<div class ="placar">
+				<div class="leftPoints"><h1  id="gol_1" onclick="golTime1()">0</h1></div>
+				<h1>vs</h1>
+				<div class="rightPoints"><h1  id="gol_2" onclick="golTime2()">0</h1></div>
+			</div>
+
+			<div class="visitor">
+				<img src="../black.jpg" alt="" class="imgVisitor" id="visitorImg" onclick="trocarImgVisitor()">
+				<input type="text" placeholder="Visitante" class="iptVisitor">	
+			</div>
+		</div>
+
+		<section>
+			<div class="Classexibe" id="exibe">
+				<div>
+					<p><input class="mostrarValor" type="text" id="mostrarValor" size="2" readonly="readonly" value="30:00"/></p>
+				</div>
+			</div>
+			
+			<div>
+				<p id="min"></p>
+				<p id="seg"></p>
+			</div>
+				
+			<div class="Controls">
+				<p>
+					<input class="btn" type="button" value="INICIAR" id="btnIniciar" onclick="IniciarCronometro('start')" /> 
+					<input class="btn" type="button" value="PAUSAR" id="btnPausar" onclick="PausarCronometro()" disabled="disabled" /> 
+					<input class="btn" type="button" value="REINICIAR" id="btnResetar" onclick="ResetarCronometro()" disabled="disabled" /> 
+				</p>
+			</div>
+		</section>
+	</div>
+<script src="./js/main.js"></script>
+<script type="text/javascript" lang="javascript" src="js/script_junior.js"></script>
+</body>
+</html>
